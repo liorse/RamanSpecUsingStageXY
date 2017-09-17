@@ -16,6 +16,7 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Axis Direction Definition.ctl" Type="VI" URL="../Utility/Axis Direction Definition.ctl"/>
 		<Item Name="GeneratePointsForStage.vi" Type="VI" URL="../GeneratePointsForStage.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>

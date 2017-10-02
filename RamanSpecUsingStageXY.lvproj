@@ -23,14 +23,12 @@
 		<Item Name="GeneratePointsForStage.vi" Type="VI" URL="../GeneratePointsForStage.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
-		<Item Name="NI_Database_API.lvlib" Type="Library" URL="../Database/NI_Database_API.lvlib"/>
 		<Item Name="Playback.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/Playback.vi"/>
 		<Item Name="SpectrometerSMO.vi" Type="VI" URL="../SpectrometerSMO.vi"/>
 		<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
 		<Item Name="Tranlate points to this origin.vi" Type="VI" URL="../Tranlate points to this origin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="ADO Type and Dir to DB Tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/ADO Type and Dir to DB Tools.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -38,84 +36,8 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="ClientAuthentication.ctl" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/public/controls/ClientAuthentication.ctl"/>
 				<Item Name="Close.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/public/Close.vi"/>
-				<Item Name="Cmd Create Parameters.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Create Parameters.vi"/>
-				<Item Name="Cmd DataMembers.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd DataMembers.ctl"/>
-				<Item Name="Cmd Delete.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Delete.vi"/>
-				<Item Name="Cmd Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Execute.vi"/>
-				<Item Name="Cmd Get ADO Command Reference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get ADO Command Reference.vi"/>
-				<Item Name="Cmd Get Command Properties (C).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Command Properties (C).vi"/>
-				<Item Name="Cmd Get Command Properties (CR).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Command Properties (CR).vi"/>
-				<Item Name="Cmd Get Parameter Properties (C).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Parameter Properties (C).vi"/>
-				<Item Name="Cmd Get Parameter Properties (CR).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Parameter Properties (CR).vi"/>
-				<Item Name="Cmd Get Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Parameter.vi"/>
-				<Item Name="Cmd Get Parameters.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Get Parameters.vi"/>
-				<Item Name="Cmd getData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd getData.vi"/>
-				<Item Name="Cmd New.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd New.vi"/>
-				<Item Name="Cmd ObjectReference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd ObjectReference.ctl"/>
-				<Item Name="Cmd objectRepository.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd objectRepository.vi"/>
-				<Item Name="Cmd Parameter Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Parameter Properties.ctl"/>
-				<Item Name="Cmd Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/Cmd Properties.ctl"/>
-				<Item Name="Cmd-Rec Data Members.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec Data Members.ctl"/>
-				<Item Name="Cmd-Rec Delete.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec Delete.vi"/>
-				<Item Name="Cmd-Rec Get Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec Get Data.vi"/>
-				<Item Name="Cmd-Rec New.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec New.vi"/>
-				<Item Name="Cmd-Rec Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec Object Reference.ctl"/>
-				<Item Name="Cmd-Rec objectRepository.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command-Recordset.llb/Cmd-Rec objectRepository.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Conn Add Command Reference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Add Command Reference.vi"/>
-				<Item Name="Conn Add Recordset Reference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Add Recordset Reference.vi"/>
-				<Item Name="Conn DataMembers.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn DataMembers.ctl"/>
-				<Item Name="Conn Delete.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Delete.vi"/>
-				<Item Name="Conn Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Execute.vi"/>
-				<Item Name="Conn Get Properties.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Get Properties.vi"/>
-				<Item Name="Conn getData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn getData.vi"/>
-				<Item Name="Conn getDataToModify.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn getDataToModify.vi"/>
-				<Item Name="Conn Modify Reference Count.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Modify Reference Count.vi"/>
-				<Item Name="Conn New.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn New.vi"/>
-				<Item Name="Conn ObjectReference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn ObjectReference.ctl"/>
-				<Item Name="Conn objectRepository.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn objectRepository.vi"/>
-				<Item Name="Conn Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn Properties.ctl"/>
-				<Item Name="Conn setModifiedData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/Conn setModifiedData.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="DB Tools Build Insert Query.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Build Insert Query.vi"/>
-				<Item Name="DB Tools Build Select Query.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Build Select Query.vi"/>
-				<Item Name="DB Tools Check If Tbl Exists.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Check If Tbl Exists.vi"/>
-				<Item Name="DB Tools Close Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/DB Tools Close Connection.vi"/>
-				<Item Name="DB Tools Column Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Column Info.ctl"/>
-				<Item Name="DB Tools Constraint Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Constraint Info.ctl"/>
-				<Item Name="DB Tools Create Parameterized Query.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Command.llb/DB Tools Create Parameterized Query.vi"/>
-				<Item Name="DB Tools Create Table If Not Exist.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Create Table If Not Exist.vi"/>
-				<Item Name="DB Tools Create Table.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Create Table.vi"/>
-				<Item Name="DB Tools Cursor Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Cursor Type.ctl"/>
-				<Item Name="DB Tools Database.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Database.ctl"/>
-				<Item Name="DB Tools DataTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools DataTypes.ctl"/>
-				<Item Name="DB Tools dBASE Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools dBASE Types.ctl"/>
-				<Item Name="DB Tools Error Helper.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Error Helper.vi"/>
-				<Item Name="DB Tools Execute Query.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Execute Query.vi"/>
-				<Item Name="DB Tools Fetch Recordset Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/DB Tools Fetch Recordset Data.vi"/>
-				<Item Name="DB Tools Free Object.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Free Object.vi"/>
-				<Item Name="DB Tools Generate Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Parser.llb/DB Tools Generate Parameter.vi"/>
-				<Item Name="DB Tools Get DB From Provider.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Get DB From Provider.vi"/>
-				<Item Name="DB Tools Get Properties.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Get Properties.vi"/>
-				<Item Name="DB Tools Get Types From DB.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Get Types From DB.vi"/>
-				<Item Name="DB Tools Get Types From File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Get Types From File.vi"/>
-				<Item Name="DB Tools Get Types.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Get Types.vi"/>
-				<Item Name="DB Tools Is DateTime String.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Is DateTime String.vi"/>
-				<Item Name="DB Tools Jet Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Jet Types.ctl"/>
-				<Item Name="DB Tools List Tables.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools List Tables.vi"/>
-				<Item Name="DB Tools MySQL Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools MySQL Types.ctl"/>
-				<Item Name="DB Tools Open Connec (Path).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/DB Tools Open Connec (Path).vi"/>
-				<Item Name="DB Tools Open Connec (String).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/DB Tools Open Connec (String).vi"/>
-				<Item Name="DB Tools Open Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Connection.llb/DB Tools Open Connection.vi"/>
-				<Item Name="DB Tools Open Schema.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Open Schema.vi"/>
-				<Item Name="DB Tools Oracle Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Oracle Types.ctl"/>
-				<Item Name="DB Tools Parameter Dir.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Parameter Dir.ctl"/>
-				<Item Name="DB Tools Parameter Info.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Parameter Info.ctl"/>
-				<Item Name="DB Tools Parser.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Parser.llb/DB Tools Parser.vi"/>
-				<Item Name="DB Tools Select Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Select Data.vi"/>
-				<Item Name="DB Tools SQL Server Types.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools SQL Server Types.ctl"/>
-				<Item Name="DB Tools Type and Dir to ADO.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Type and Dir to ADO.vi"/>
-				<Item Name="DB Tools Validate Inputs.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Auxilliary.llb/DB Tools Validate Inputs.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -154,29 +76,12 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/SAPHIR/GDataBase for MySQL(tm)/MySQL/public/Open.vi"/>
-				<Item Name="Rec Column Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Column Properties.ctl"/>
-				<Item Name="Rec Create - Command.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Create - Command.vi"/>
-				<Item Name="Rec DataMembers.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec DataMembers.ctl"/>
-				<Item Name="Rec Delete.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Delete.vi"/>
-				<Item Name="Rec Destroy - Command.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Destroy - Command.vi"/>
-				<Item Name="Rec Destroy - Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Destroy - Connection.vi"/>
-				<Item Name="Rec Fetch Recordset Data (CR).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Fetch Recordset Data (CR).vi"/>
-				<Item Name="Rec Fetch Recordset Data (R).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Fetch Recordset Data (R).vi"/>
-				<Item Name="Rec Get Column Properties (CR).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Get Column Properties (CR).vi"/>
-				<Item Name="Rec Get Column Properties (R).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Get Column Properties (R).vi"/>
-				<Item Name="Rec Get Recordset Properties (CR).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Get Recordset Properties (CR).vi"/>
-				<Item Name="Rec Get Recordset Properties (R).vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Get Recordset Properties (R).vi"/>
-				<Item Name="Rec getData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec getData.vi"/>
-				<Item Name="Rec New.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec New.vi"/>
-				<Item Name="Rec ObjectReference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec ObjectReference.ctl"/>
-				<Item Name="Rec objectRepository.vi" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec objectRepository.vi"/>
-				<Item Name="Rec Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/database/Recordset.llb/Rec Properties.ctl"/>
 				<Item Name="RectCentroid.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/RectCentroid.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>

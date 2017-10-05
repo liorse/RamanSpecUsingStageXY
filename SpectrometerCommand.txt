@@ -1,0 +1,2 @@
+[RequestFromLabview]
+Request2StartMeasurement=0

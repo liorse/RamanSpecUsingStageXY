@@ -1,0 +1,7 @@
+79121.7
+
+[[RequestFromLabview]]
+Request2StartMeasurement = TRUE
+
+[[RequestFromLabview]]
+Request2StartMeasurement  = TRUE

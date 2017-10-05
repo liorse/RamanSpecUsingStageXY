@@ -1,2 +1,3 @@
 [RequestFromLabview]
 Request2StartMeasurement=0
+FileName4Spectrum = "DateTimeSpectrumPointNumber.txt"

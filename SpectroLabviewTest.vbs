@@ -31,22 +31,35 @@ Dim SpectrumValues
  
  ' Create a while loop which write to the file every 2 seconds
  Dim tic 
+ Dim Path
+ Dim CommandFileName
+ Dim StatusFileName
+ Dim SavedSpectrumFileName ' Read from command line
  Dim PathAndFileName
  Dim PathAndFileNameForCommand 
+ Dim PathAndFileNameForStatus
  Dim Request2StartMeasurement
  Dim CommandSectionName
  Dim CommandKeyName
+ Dim SavedSpectrumFileNameKeyName
  Dim StatusSectionName
  Dim StatusKeyName
  Dim MeasurementInProgress
+ Dim Format 
+ Dim Ret 
  
  MeasurementInProgress = 0
  CommandSectionName = "RequestFromLabview"
  CommandKeyName = "Request2StartMeasurement"
+ SavedSpectrumFileNameKeyName = "FileName4Spectrum"
  StatusSectionName = "Measurement"
  StatusKeyName = "MeasurementInProgress"
- PathAndFileNameForStatus = "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\SpectrometerStatus.txt"
- PathAndFileNameForCommand =  "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\SpectrometerCommand.txt"
+ Path = "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\"
+ CommandFileName = "SpectrometerCommand.txt"
+ StatusFileName = "SpectrometerStatus.txt"
+ 
+ PathAndFileNameForStatus = Path & StatusFileName
+ PathAndFileNameForCommand =  Path & CommandFileName
  tic = Timer
  SpectrumID = 0
  
@@ -69,9 +82,12 @@ While True
    Request2StartMeasurement = ReadIni(PathAndFileNameForCommand, CommandSectionName, CommandKeyName)
    If Request2StartMeasurement = 1 Then
      MeasurementInProgress = 1
+     ' Nullify Command
      WriteIni PathAndFileNameForCommand, CommandSectionName, CommandKeyName, 0
+     ' Update status the measurement is in progress
      WriteIni PathAndFileNameForStatus, StatusSectionName, StatusKeyName, MeasurementInProgress
-    
+     ' Read filename from ini file To save spectrum
+     SavedSpectrumFileName = ReadIni(PathAndFileNameForCommand, CommandSectionName,SavedSpectrumFileNameKeyName)
      StartAcq()
      SpectrumID=LabSpec.GetAcqID() ' Wait until Spectrum is ready (acquisition is done) 
   
@@ -81,6 +97,17 @@ While True
    If SpectrumID > 0 Then
       'Measurement Ended
       LabSpec.Exec SpectrumID , SHOW_SPECTRUM, Param ' Show Spectrum 
+      ' Save To file
+      Format = "txt" 
+      With New RegExp 
+        .Pattern = """"
+        .IgnoreCase = False
+        .Global = True
+        SavedSpectrumFileName = .Replace(SavedSpectrumFileName, "")
+      End With
+      
+      Ret = LabSpec.Save(SpectrumID, Path & SavedSpectrumFileName, Format) 
+  
       MeasurementInProgress = 0
       SpectrumID = 0
    End If 

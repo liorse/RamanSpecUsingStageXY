@@ -248,8 +248,9 @@ Sub WriteIni( myFilePath, mySection, myKey, myValue )
    'Set wshShell = CreateObject( "WScript.Shell" )
 
     'strTempDir  = wshShell.ExpandEnvironmentStrings( "%TEMP%" )
-    'strTempFile = objFSO.BuildPath( strTempDir, objFSO.GetTempName )
-    strTempFile =  "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\SpectrometerCommand1.txt"
+    strTempFile = objFSO.BuildPath( Path, objFSO.GetTempName )
+    'strTempFile =  "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\SpectrometerCommand1.txt"
+    
     Set objOrgIni = objFSO.OpenTextFile( strFilePath, ForReading, True )
     Set objNewIni = objFSO.CreateTextFile(strTempFile, False, False )
 

@@ -1,4 +1,6 @@
  
+On Error Resume Next
+
 Const ACQ_SPECTRUM = 0 
 Const ACQ_IMAGE = 1 
 Const ACQ_LABSPEC_PARAM = 2 

@@ -16,6 +16,7 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="activeXexample.vi" Type="VI" URL="../activeXexample.vi"/>
 		<Item Name="Axis Direction Definition.ctl" Type="VI" URL="../Utility/Axis Direction Definition.ctl"/>
 		<Item Name="databaseTesting with Saphire DB VI.vi" Type="VI" URL="../databaseTesting with Saphire DB VI.vi"/>
 		<Item Name="databaseTesting.vi" Type="VI" URL="../databaseTesting.vi"/>

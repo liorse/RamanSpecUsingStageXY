@@ -69,7 +69,7 @@ Dim SpectrumValues
  
 While True
    ' Generate status file - To be completed
-   If Timer - tic > 1 Then
+   If Abs(Timer - tic) > 1 Then 
      WriteIni PathAndFileNameForStatus, StatusSectionName, StatusKeyName, MeasurementInProgress
      'Set a = fs.CreateTextFile(PathAndFileNameForStatus, True)
      'a.WriteLine(Timer)
@@ -78,7 +78,7 @@ While True
     'Wscript.Echo Timer - tic
      tic = Timer
    End If
-   LabSpec.Pause 300
+   LabSpec.Pause 300 
    
    ' Check Command file For a request from Labview To start a measurement
    Request2StartMeasurement = ReadIni(PathAndFileNameForCommand, CommandSectionName, CommandKeyName)
@@ -333,9 +333,11 @@ Sub WriteIni( myFilePath, mySection, myKey, myValue )
 
     ' Delete old INI file
     objFSO.DeleteFile strFilePath, True
+  
+
     ' Rename new INI file
     objFSO.MoveFile strTempFile, strFilePath
-
+    ObjFSO.DeleteFile Path & "*.tmp", True
     Set objOrgIni = Nothing
     Set objNewIni = Nothing
     Set objFSO    = Nothing

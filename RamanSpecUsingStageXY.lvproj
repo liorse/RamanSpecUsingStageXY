@@ -47,6 +47,8 @@
 		<Item Name="GetUnitsFromString.vi" Type="VI" URL="../Spectrometer Utilities/GetUnitsFromString.vi"/>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Raman Spectrometer Controller GFV.vi" Type="VI" URL="../Raman Spectrometer Controller GFV.vi"/>
+		<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
 		<Item Name="Testing Subpanels.vi" Type="VI" URL="../Testing Subpanels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

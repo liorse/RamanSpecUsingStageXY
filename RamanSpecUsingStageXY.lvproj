@@ -33,6 +33,7 @@
 				<Item Name="TransperantDateControl.ctl" Type="VI" URL="../TransperantDateControl.ctl"/>
 				<Item Name="TransperantString.ctl" Type="VI" URL="../TransperantString.ctl"/>
 			</Item>
+			<Item Name="SpectrometerData.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerData.ctl"/>
 			<Item Name="SpectrometerSMO.vi" Type="VI" URL="../SpectrometerSMO.vi"/>
 		</Item>
 		<Item Name="Stage" Type="Folder">
@@ -43,8 +44,10 @@
 			</Item>
 			<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
 		</Item>
+		<Item Name="GetUnitsFromString.vi" Type="VI" URL="../Spectrometer Utilities/GetUnitsFromString.vi"/>
+		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="MainUI.vi" Type="VI" URL="../MainUI.vi"/>
+		<Item Name="Testing Subpanels.vi" Type="VI" URL="../Testing Subpanels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

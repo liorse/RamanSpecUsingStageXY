@@ -30,6 +30,7 @@
 				<Item Name="activeXexample.vi" Type="VI" URL="../activeXexample.vi"/>
 				<Item Name="FindIndexofStringInstringArray.vi" Type="VI" URL="../Spectrometer Utilities/FindIndexofStringInstringArray.vi"/>
 				<Item Name="ReadSpectrometerFile.vi" Type="VI" URL="../ReadSpectrometerFile.vi"/>
+				<Item Name="SpectrometerCallbackdataEvent.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerCallbackdataEvent.ctl"/>
 				<Item Name="TransperantDateControl.ctl" Type="VI" URL="../TransperantDateControl.ctl"/>
 				<Item Name="TransperantString.ctl" Type="VI" URL="../TransperantString.ctl"/>
 			</Item>
@@ -51,6 +52,9 @@
 		<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
 		<Item Name="Testing Subpanels.vi" Type="VI" URL="../Testing Subpanels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>

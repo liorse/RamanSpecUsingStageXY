@@ -25,15 +25,30 @@
 		<Item Name="Powermeter" Type="Folder">
 			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
 		</Item>
+		<Item Name="Scripts" Type="Folder">
+			<Item Name="Map" Type="Folder">
+				<Item Name="MapScriptActor.vi" Type="VI" URL="../Scripts Actors/MapScriptActor.vi"/>
+				<Item Name="MapScriptActorGFV.vi" Type="VI" URL="../Scripts Actors/MapScriptActorGFV.vi"/>
+				<Item Name="MapScriptGFVEnum.ctl" Type="VI" URL="../Scripts Actors/MapScriptGFVEnum.ctl"/>
+			</Item>
+			<Item Name="Map Dry" Type="Folder">
+				<Item Name="MapDryScriptActor.vi" Type="VI" URL="../Scripts Actors/MapDryScriptActor.vi"/>
+				<Item Name="MapDryScriptActorGFV.vi" Type="VI" URL="../Scripts Actors/MapDryScriptActorGFV.vi"/>
+				<Item Name="MapDryScriptGFVEnum.ctl" Type="VI" URL="../Scripts Actors/MapDryScriptGFVEnum.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="Spectrometer" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="activeXexample.vi" Type="VI" URL="../activeXexample.vi"/>
 				<Item Name="FindIndexofStringInstringArray.vi" Type="VI" URL="../Spectrometer Utilities/FindIndexofStringInstringArray.vi"/>
+				<Item Name="GetUnitsFromString.vi" Type="VI" URL="../Spectrometer Utilities/GetUnitsFromString.vi"/>
 				<Item Name="ReadSpectrometerFile.vi" Type="VI" URL="../ReadSpectrometerFile.vi"/>
 				<Item Name="SpectrometerCallbackdataEvent.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerCallbackdataEvent.ctl"/>
 				<Item Name="TransperantDateControl.ctl" Type="VI" URL="../TransperantDateControl.ctl"/>
 				<Item Name="TransperantString.ctl" Type="VI" URL="../TransperantString.ctl"/>
 			</Item>
+			<Item Name="Raman Spectrometer Controller GFV.vi" Type="VI" URL="../Raman Spectrometer Controller GFV.vi"/>
+			<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
 			<Item Name="SpectrometerData.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerData.ctl"/>
 			<Item Name="SpectrometerSMO.vi" Type="VI" URL="../SpectrometerSMO.vi"/>
 		</Item>
@@ -45,11 +60,9 @@
 			</Item>
 			<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
 		</Item>
-		<Item Name="GetUnitsFromString.vi" Type="VI" URL="../Spectrometer Utilities/GetUnitsFromString.vi"/>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Raman Spectrometer Controller GFV.vi" Type="VI" URL="../Raman Spectrometer Controller GFV.vi"/>
-		<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
+		<Item Name="test.vi" Type="VI" URL="../Axiocam305Test/test.vi"/>
 		<Item Name="Testing Subpanels.vi" Type="VI" URL="../Testing Subpanels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -277,6 +290,7 @@
 			<Item Name="Aerotech.Ensemble.dll" Type="Document" URL="../Bin/Aerotech.Ensemble.dll"/>
 			<Item Name="Aerotech.Ensemble.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.Ensemble.LabVIEW.dll"/>
 			<Item Name="AlertError.vi" Type="VI" URL="../Utility/AlertError.vi"/>
+			<Item Name="axcam64.dll" Type="Document" URL="../../../../Downloads/axiocam_ng_sdk_1.78/AxiocamSDK/api/lib/axcam64.dll"/>
 			<Item Name="AxisControl.ctl" Type="VI" URL="../Utility/AxisControl.ctl"/>
 			<Item Name="AxisDataResults.ctl" Type="VI" URL="../Scope/AxisDataResults.ctl"/>
 			<Item Name="AxisDiagPacket.ctl" Type="VI" URL="../Status/AxisDiagPacket.ctl"/>

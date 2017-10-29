@@ -22,6 +22,12 @@
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Microscope" Type="Folder">
+			<Item Name="Microscope Controller GFV.vi" Type="VI" URL="../Microscope Controller GFV.vi"/>
+			<Item Name="MicroscopeActor.vi" Type="VI" URL="../MicroscopeActor.vi"/>
+			<Item Name="MicroscopeControllerCluster.ctl" Type="VI" URL="../Microscope/MicroscopeControllerCluster.ctl"/>
+			<Item Name="MicroscopeControllerEnum.ctl" Type="VI" URL="../Microscope/MicroscopeControllerEnum.ctl"/>
+		</Item>
 		<Item Name="Powermeter" Type="Folder">
 			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
 		</Item>
@@ -246,6 +252,7 @@
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ Write BMP String" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP String"/>

@@ -54,9 +54,9 @@
 				<Item Name="TransperantString.ctl" Type="VI" URL="../TransperantString.ctl"/>
 			</Item>
 			<Item Name="Raman Spectrometer Controller GFV.vi" Type="VI" URL="../Raman Spectrometer Controller GFV.vi"/>
+			<Item Name="SpectrometerActor.vi" Type="VI" URL="../SpectrometerActor.vi"/>
 			<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
 			<Item Name="SpectrometerData.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerData.ctl"/>
-			<Item Name="SpectrometerSMO.vi" Type="VI" URL="../SpectrometerSMO.vi"/>
 		</Item>
 		<Item Name="Stage" Type="Folder">
 			<Item Name="Utilities" Type="Folder">

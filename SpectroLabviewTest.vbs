@@ -56,7 +56,7 @@ Dim SpectrumValues
  SavedSpectrumFileNameKeyName = "FileName4Spectrum"
  StatusSectionName = "Measurement"
  StatusKeyName = "MeasurementInProgress"
- Path = "C:\Users\OmerLab\Documents\GitHub\RamanSpecUsingStageXY\"
+ Path = "C:\temp\"
  CommandFileName = "SpectrometerCommand.txt"
  StatusFileName = "SpectrometerStatus.txt"
  

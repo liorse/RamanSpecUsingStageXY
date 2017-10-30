@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,23 +14,8 @@
 		<Item Name="AEROTECstageAPI" Type="Folder" URL="../AEROTECstageAPI">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Database" Type="Folder">
-			<Item Name="databaseTesting with Saphire DB VI.vi" Type="VI" URL="../databaseTesting with Saphire DB VI.vi"/>
-			<Item Name="databaseTesting.vi" Type="VI" URL="../databaseTesting.vi"/>
-			<Item Name="Fetching - State.ctl" Type="VI" URL="../Utility/Fetching - State.ctl"/>
-			<Item Name="Playback.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/Playback.vi"/>
-		</Item>
 		<Item Name="Examples" Type="Folder" URL="../Examples">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Microscope" Type="Folder">
-			<Item Name="Microscope Controller GFV.vi" Type="VI" URL="../Microscope Controller GFV.vi"/>
-			<Item Name="MicroscopeActor.vi" Type="VI" URL="../MicroscopeActor.vi"/>
-			<Item Name="MicroscopeControllerCluster.ctl" Type="VI" URL="../Microscope/MicroscopeControllerCluster.ctl"/>
-			<Item Name="MicroscopeControllerEnum.ctl" Type="VI" URL="../Microscope/MicroscopeControllerEnum.ctl"/>
-		</Item>
-		<Item Name="Powermeter" Type="Folder">
-			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Map" Type="Folder">
@@ -58,6 +44,12 @@
 			<Item Name="SpectrometerControllerEnum.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerControllerEnum.ctl"/>
 			<Item Name="SpectrometerData.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerData.ctl"/>
 		</Item>
+		<Item Name="Microscope" Type="Folder">
+			<Item Name="Microscope Controller GFV.vi" Type="VI" URL="../Microscope Controller GFV.vi"/>
+			<Item Name="MicroscopeActor.vi" Type="VI" URL="../MicroscopeActor.vi"/>
+			<Item Name="MicroscopeControllerCluster.ctl" Type="VI" URL="../Microscope/MicroscopeControllerCluster.ctl"/>
+			<Item Name="MicroscopeControllerEnum.ctl" Type="VI" URL="../Microscope/MicroscopeControllerEnum.ctl"/>
+		</Item>
 		<Item Name="Stage" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="Axis Direction Definition.ctl" Type="VI" URL="../Utility/Axis Direction Definition.ctl"/>
@@ -66,10 +58,18 @@
 			</Item>
 			<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
 		</Item>
+		<Item Name="Powermeter" Type="Folder">
+			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
+		</Item>
+		<Item Name="Database" Type="Folder">
+			<Item Name="databaseTesting with Saphire DB VI.vi" Type="VI" URL="../databaseTesting with Saphire DB VI.vi"/>
+			<Item Name="databaseTesting.vi" Type="VI" URL="../databaseTesting.vi"/>
+			<Item Name="Fetching - State.ctl" Type="VI" URL="../Utility/Fetching - State.ctl"/>
+			<Item Name="Playback.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/Playback.vi"/>
+		</Item>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../Axiocam305Test/test.vi"/>
-		<Item Name="Testing Subpanels.vi" Type="VI" URL="../Testing Subpanels.vi"/>
+		<Item Name="MicroscopeActorCluster.ctl" Type="VI" URL="../Microscope/MicroscopeActorCluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -297,7 +297,6 @@
 			<Item Name="Aerotech.Ensemble.dll" Type="Document" URL="../Bin/Aerotech.Ensemble.dll"/>
 			<Item Name="Aerotech.Ensemble.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.Ensemble.LabVIEW.dll"/>
 			<Item Name="AlertError.vi" Type="VI" URL="../Utility/AlertError.vi"/>
-			<Item Name="axcam64.dll" Type="Document" URL="../../../../Downloads/axiocam_ng_sdk_1.78/AxiocamSDK/api/lib/axcam64.dll"/>
 			<Item Name="AxisControl.ctl" Type="VI" URL="../Utility/AxisControl.ctl"/>
 			<Item Name="AxisDataResults.ctl" Type="VI" URL="../Scope/AxisDataResults.ctl"/>
 			<Item Name="AxisDiagPacket.ctl" Type="VI" URL="../Status/AxisDiagPacket.ctl"/>

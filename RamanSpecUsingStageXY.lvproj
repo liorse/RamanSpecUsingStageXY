@@ -244,9 +244,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
-				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
-				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
@@ -268,7 +265,6 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -288,8 +284,13 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="DB Tools Open Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Open Connection.vi"/>
+				<Item Name="DB Tools Open Connec (Path).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Open Connec (Path).vi"/>
+				<Item Name="DB Tools Insert Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Auxilliary.llb/DB Tools Insert Data.vi"/>
+				<Item Name="DB Tools Close Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Close Connection.vi"/>
+				<Item Name="Conn ObjectReference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/Conn ObjectReference.ctl"/>
+				<Item Name="DB Tools Select Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Auxilliary.llb/DB Tools Select Data.vi"/>
 			</Item>
 			<Item Name="Abort.vi" Type="VI" URL="../Motion/Abort.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>
@@ -405,6 +406,8 @@
 			<Item Name="Wait.vi" Type="VI" URL="../Motion/Wait.vi"/>
 			<Item Name="WaitMultiple.vi" Type="VI" URL="../Motion/WaitMultiple.vi"/>
 			<Item Name="WaitSingle.vi" Type="VI" URL="../Motion/WaitSingle.vi"/>
+			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
+			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

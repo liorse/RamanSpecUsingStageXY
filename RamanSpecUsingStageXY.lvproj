@@ -73,6 +73,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="MapScriptMeasurementStateMachineEnum.ctl" Type="VI" URL="../Scripts Actors/MapScriptMeasurementStateMachineEnum.ctl"/>
 		<Item Name="Move Stage.vi" Type="VI" URL="../Scripts Actors/Move Stage.vi"/>
+		<Item Name="GenerateUsers.vi" Type="VI" URL="../Database/GenerateUsers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -288,12 +289,11 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="DB Tools Open Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Open Connection.vi"/>
-				<Item Name="DB Tools Open Connec (Path).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Open Connec (Path).vi"/>
-				<Item Name="DB Tools Insert Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Auxilliary.llb/DB Tools Insert Data.vi"/>
-				<Item Name="DB Tools Close Connection.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/DB Tools Close Connection.vi"/>
-				<Item Name="Conn ObjectReference.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Connection.llb/Conn ObjectReference.ctl"/>
-				<Item Name="DB Tools Select Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Database/Auxilliary.llb/DB Tools Select Data.vi"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Database/NI_Database_API.lvlib"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 			<Item Name="Abort.vi" Type="VI" URL="../Motion/Abort.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>
@@ -409,8 +409,6 @@
 			<Item Name="Wait.vi" Type="VI" URL="../Motion/Wait.vi"/>
 			<Item Name="WaitMultiple.vi" Type="VI" URL="../Motion/WaitMultiple.vi"/>
 			<Item Name="WaitSingle.vi" Type="VI" URL="../Motion/WaitSingle.vi"/>
-			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
-			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

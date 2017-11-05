@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="Scripts" Type="Folder">
 			<Item Name="Map" Type="Folder">
+				<Item Name="MapScriptMeasurementStateMachineEnum.ctl" Type="VI" URL="../Scripts Actors/MapScriptMeasurementStateMachineEnum.ctl"/>
 				<Item Name="GenerateStageCoordinatesForMap.vi" Type="VI" URL="../Utility/GenerateStageCoordinatesForMap.vi"/>
 				<Item Name="MapScriptActor.vi" Type="VI" URL="../Scripts Actors/MapScriptActor.vi"/>
 				<Item Name="MapScriptActorGFV.vi" Type="VI" URL="../Scripts Actors/MapScriptActorGFV.vi"/>
@@ -59,11 +60,15 @@
 				<Item Name="Tranlate points to this origin.vi" Type="VI" URL="../Tranlate points to this origin.vi"/>
 			</Item>
 			<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
+			<Item Name="Move Stage.vi" Type="VI" URL="../Scripts Actors/Move Stage.vi"/>
 		</Item>
 		<Item Name="Powermeter" Type="Folder">
 			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
 		</Item>
 		<Item Name="Database" Type="Folder">
+			<Item Name="DatabaseContollerGFVenum.ctl" Type="VI" URL="../Database/DatabaseContollerGFVenum.ctl"/>
+			<Item Name="DatabaseControllerGFV.vi" Type="VI" URL="../Database/DatabaseControllerGFV.vi"/>
+			<Item Name="GenerateUsers.vi" Type="VI" URL="../Database/GenerateUsers.vi"/>
 			<Item Name="databaseTesting with Saphire DB VI.vi" Type="VI" URL="../databaseTesting with Saphire DB VI.vi"/>
 			<Item Name="databaseTesting.vi" Type="VI" URL="../databaseTesting.vi"/>
 			<Item Name="Fetching - State.ctl" Type="VI" URL="../Utility/Fetching - State.ctl"/>
@@ -71,9 +76,7 @@
 		</Item>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="MapScriptMeasurementStateMachineEnum.ctl" Type="VI" URL="../Scripts Actors/MapScriptMeasurementStateMachineEnum.ctl"/>
-		<Item Name="Move Stage.vi" Type="VI" URL="../Scripts Actors/Move Stage.vi"/>
-		<Item Name="GenerateUsers.vi" Type="VI" URL="../Database/GenerateUsers.vi"/>
+		<Item Name="TestDatabaseControllerGFV.vi" Type="VI" URL="../Database/TestDatabaseControllerGFV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>

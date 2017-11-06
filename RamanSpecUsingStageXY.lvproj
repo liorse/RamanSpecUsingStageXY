@@ -74,6 +74,7 @@
 			<Item Name="Fetching - State.ctl" Type="VI" URL="../Utility/Fetching - State.ctl"/>
 			<Item Name="Playback.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/Playback.vi"/>
 			<Item Name="TestDatabaseControllerGFV.vi" Type="VI" URL="../Database/TestDatabaseControllerGFV.vi"/>
+			<Item Name="MoreTestDataGFV.vi" Type="VI" URL="../Database/MoreTestDataGFV.vi"/>
 		</Item>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>

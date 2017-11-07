@@ -62,6 +62,7 @@
 			</Item>
 			<Item Name="testingImagesROI.vi" Type="VI" URL="../testingImagesROI.vi"/>
 			<Item Name="Move Stage.vi" Type="VI" URL="../Scripts Actors/Move Stage.vi"/>
+			<Item Name="StageMiniUI.vi" Type="VI" URL="../StageMiniUI.vi"/>
 		</Item>
 		<Item Name="Powermeter" Type="Folder">
 			<Item Name="VegaAnalogOutputReadViaUSB6009.vi" Type="VI" URL="../VegaAnalogOutputReadViaUSB6009.vi"/>
@@ -78,8 +79,12 @@
 			<Item Name="meas_conf_cluster.ctl" Type="VI" URL="../Database/meas_conf_cluster.ctl"/>
 			<Item Name="MoreTestDataGFV.vi" Type="VI" URL="../Database/MoreTestDataGFV.vi"/>
 		</Item>
-		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Main" Type="Folder">
+			<Item Name="SpectroscopicMeasurementsMainUI.vi" Type="VI" URL="../SpectroscopicMeasurementsMainUI.vi"/>
+			<Item Name="SpectroscopicMeasurementsCtlGFV.vi" Type="VI" URL="../SpectroscopicMeasurementsCtlGFV.vi"/>
+			<Item Name="SpectroMeasurementCtrlEnum.ctl" Type="VI" URL="../SpectroMeasurementCtrlEnum.ctl"/>
+			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>

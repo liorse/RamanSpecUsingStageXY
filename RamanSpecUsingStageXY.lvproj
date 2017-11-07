@@ -23,6 +23,7 @@
 				<Item Name="GenerateStageCoordinatesForMap.vi" Type="VI" URL="../Utility/GenerateStageCoordinatesForMap.vi"/>
 				<Item Name="MapScriptActor.vi" Type="VI" URL="../Scripts Actors/MapScriptActor.vi"/>
 				<Item Name="MapScriptActorGFV.vi" Type="VI" URL="../Scripts Actors/MapScriptActorGFV.vi"/>
+				<Item Name="MapScriptDataGFV.ctl" Type="VI" URL="../Scripts Actors/MapScriptDataGFV.ctl"/>
 				<Item Name="MapScriptGFVEnum.ctl" Type="VI" URL="../Scripts Actors/MapScriptGFVEnum.ctl"/>
 			</Item>
 			<Item Name="Map Dry" Type="Folder">
@@ -74,6 +75,7 @@
 			<Item Name="Fetching - State.ctl" Type="VI" URL="../Utility/Fetching - State.ctl"/>
 			<Item Name="Playback.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/Playback.vi"/>
 			<Item Name="TestDatabaseControllerGFV.vi" Type="VI" URL="../Database/TestDatabaseControllerGFV.vi"/>
+			<Item Name="meas_conf_cluster.ctl" Type="VI" URL="../Database/meas_conf_cluster.ctl"/>
 			<Item Name="MoreTestDataGFV.vi" Type="VI" URL="../Database/MoreTestDataGFV.vi"/>
 		</Item>
 		<Item Name="Main UI suggestion.vi" Type="VI" URL="../Main UI suggestion.vi"/>
@@ -298,6 +300,7 @@
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 			</Item>
 			<Item Name="Abort.vi" Type="VI" URL="../Motion/Abort.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>

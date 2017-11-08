@@ -422,6 +422,8 @@
 			<Item Name="Wait.vi" Type="VI" URL="../Motion/Wait.vi"/>
 			<Item Name="WaitMultiple.vi" Type="VI" URL="../Motion/WaitMultiple.vi"/>
 			<Item Name="WaitSingle.vi" Type="VI" URL="../Motion/WaitSingle.vi"/>
+			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
+			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

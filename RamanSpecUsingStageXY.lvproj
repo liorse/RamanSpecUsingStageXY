@@ -86,6 +86,8 @@
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
 		<Item Name="meas_data_cluster.ctl" Type="VI" URL="../Database/meas_data_cluster.ctl"/>
+		<Item Name="CameraOverlayImageGFV.vi" Type="VI" URL="../Microscope/CameraOverlayImageGFV.vi"/>
+		<Item Name="CameraImageOverlayEnum.ctl" Type="VI" URL="../Microscope/CameraImageOverlayEnum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -309,6 +311,8 @@
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
 			</Item>
 			<Item Name="Abort.vi" Type="VI" URL="../Motion/Abort.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>

@@ -82,15 +82,17 @@
 			<Item Name="MoreTestDataGFV.vi" Type="VI" URL="../Database/MoreTestDataGFV.vi"/>
 			<Item Name="meas_data_cluster.ctl" Type="VI" URL="../Database/meas_data_cluster.ctl"/>
 		</Item>
+		<Item Name="Journal" Type="Folder">
+			<Item Name="IntrumentEnum.ctl" Type="VI" URL="../IntrumentEnum.ctl"/>
+			<Item Name="JournalCluster.ctl" Type="VI" URL="../JournalCluster.ctl"/>
+			<Item Name="WriteInJournalProc.vi" Type="VI" URL="../Journal/WriteInJournalProc.vi"/>
+		</Item>
 		<Item Name="Main" Type="Folder">
 			<Item Name="SpectroscopicMeasurementsMainUI.vi" Type="VI" URL="../SpectroscopicMeasurementsMainUI.vi"/>
 			<Item Name="SpectroscopicMeasurementsCtlGFV.vi" Type="VI" URL="../SpectroscopicMeasurementsCtlGFV.vi"/>
 			<Item Name="SpectroMeasurementCtrlEnum.ctl" Type="VI" URL="../SpectroMeasurementCtrlEnum.ctl"/>
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
-		<Item Name="IntrumentEnum.ctl" Type="VI" URL="../IntrumentEnum.ctl"/>
-		<Item Name="JournalCluster.ctl" Type="VI" URL="../JournalCluster.ctl"/>
-		<Item Name="WriteInJournalProc.vi" Type="VI" URL="../Journal/WriteInJournalProc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -434,6 +436,8 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
+			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

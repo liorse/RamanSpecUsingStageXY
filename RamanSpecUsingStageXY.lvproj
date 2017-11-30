@@ -444,6 +444,108 @@
 			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
 			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="AutomatedSpectrometerSoftware" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5320D075-48E5-4EBA-9DB8-74E09C945D39}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{53C7B153-65D1-4748-9F95-FE1448A32D1B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6FF88097-A26B-4793-89F6-B772C3818043}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AutomatedSpectrometerSoftware</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{74999ACD-1219-4BE6-AB13-F6EA3DFFFBDB}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/AutomatedSpectrometerSoftware.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0A40724-E0C4-410D-8B0B-B88EE7A5E94E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/SpectroscopicMeasurementsMainUI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Microscope/MicroscopeActor.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Spectrometer/SpectrometerActor.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Scripts/Map/MapScriptActor.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Scripts/Map Dry/MapDryScriptActor.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Examples/MultiAxisControl.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AutomatedSpectrometerSoftware</Property>
+				<Property Name="TgtF_internalName" Type="Str">AutomatedSpectrometerSoftware</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Weizmann Institute of Science</Property>
+				<Property Name="TgtF_productName" Type="Str">AutomatedSpectrometerSoftware</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{48A6BD9D-E2D1-492C-8BED-C3F420780AF7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Microscope" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{86D535CE-2AC2-484C-9F7F-7A0198A820FC}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7DEEB8C3-F4CE-4CFE-A569-0DA693DF4E40}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{70371AA7-755F-42DF-A44F-68496E2E89DC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Microscope</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/MicrosopeSoftware</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8DBD8CC8-AF35-4785-8A0F-5FD4EA7F92C8}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Microscope.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/MicrosopeSoftware/Microscope.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/MicrosopeSoftware/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0A40724-E0C4-410D-8B0B-B88EE7A5E94E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Microscope/MicroscopeActor.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Microscope</Property>
+				<Property Name="TgtF_internalName" Type="Str">Microscope</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Weizmann Institute of Science</Property>
+				<Property Name="TgtF_productName" Type="Str">Microscope</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E3A09D44-AEA1-45B2-845C-F918B07B298F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Microscope.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

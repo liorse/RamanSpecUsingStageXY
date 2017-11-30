@@ -97,6 +97,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
+				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -459,7 +460,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{74999ACD-1219-4BE6-AB13-F6EA3DFFFBDB}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/AutomatedSpectrometerSoftware.exe</Property>
@@ -498,6 +499,7 @@
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">AutomatedSpectrometerSoftware</Property>
 				<Property Name="TgtF_internalName" Type="Str">AutomatedSpectrometerSoftware</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Weizmann Institute of Science</Property>
@@ -520,6 +522,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/MicrosopeSoftware</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8DBD8CC8-AF35-4785-8A0F-5FD4EA7F92C8}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Microscope.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/MicrosopeSoftware/Microscope.exe</Property>
@@ -544,6 +547,111 @@
 				<Property Name="TgtF_productName" Type="Str">Microscope</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E3A09D44-AEA1-45B2-845C-F918B07B298F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Microscope.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Spectrometer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6FC2FAE4-CBF3-4AEF-9485-2F94DD1DDEA2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2DFA0243-D8D6-4611-8283-849D905BC11A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2290C3D1-0F0F-4016-8564-8AF4D73BA5BA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Spectrometer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/SpectrometerSoftware</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{13D1A0AC-9DA5-4957-AB47-A2B7F651F044}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Spectrometer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/SpectrometerSoftware/Spectrometer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/SpectrometerSoftware/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0A40724-E0C4-410D-8B0B-B88EE7A5E94E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Spectrometer/SpectrometerActor.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Spectrometer</Property>
+				<Property Name="TgtF_internalName" Type="Str">Spectrometer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Weizmann Institute of Science</Property>
+				<Property Name="TgtF_productName" Type="Str">Spectrometer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CA853D85-E3B5-485D-9A2D-D97C9F14C445}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Spectrometer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Stage" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5376F34B-0D2A-4CF1-842F-CDEFF85CBCC9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FDBED94B-C2CE-445B-96EC-6CA7B2B2D142}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5E83E2B9-A3AB-4AD2-BF4A-E0501A1639E9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Stage</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/Stage</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E6E00F8B-2F27-4029-86C0-3D4EA2D4E2BF}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Stage.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/Stage/Stage.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/Stage/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0A40724-E0C4-410D-8B0B-B88EE7A5E94E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/MultiAxisControl.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AEROTECstageAPI/AEROTECstageAPIgfv.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/AEROTECstageAPI/GetStageParam.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/AEROTECstageAPI/MoveDistanceInAxis.ctl</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AEROTECstageAPI/SingleStageData.ctl</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/AEROTECstageAPI/StageEnum.ctl</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AEROTECstageAPI/Test.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="TgtF_companyName" Type="Str">Weizmann Institute of Science</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Stage</Property>
+				<Property Name="TgtF_internalName" Type="Str">Stage</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Weizmann Institute of Science</Property>
+				<Property Name="TgtF_productName" Type="Str">Stage</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7DC1ADC0-9042-4915-9F59-3AEAC150BB4D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Stage.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

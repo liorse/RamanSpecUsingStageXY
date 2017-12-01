@@ -94,6 +94,7 @@
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
 		<Item Name="DrawCrossHair.vi" Type="VI" URL="../Microscope/DrawCrossHair.vi"/>
+		<Item Name="favicon.ico" Type="Document" URL="../favicon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -460,7 +461,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{74999ACD-1219-4BE6-AB13-F6EA3DFFFBDB}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/AutomatedSpectrometerSoftware.exe</Property>
@@ -471,7 +472,8 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D0A40724-E0C4-410D-8B0B-B88EE7A5E94E}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/favicon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D0FB313F-9E5D-4C46-856B-868DAB756727}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/SpectroscopicMeasurementsMainUI.vi</Property>

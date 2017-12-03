@@ -461,7 +461,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{74999ACD-1219-4BE6-AB13-F6EA3DFFFBDB}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/AutomatedSpectrometerSoftware.exe</Property>
@@ -473,7 +473,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D0FB313F-9E5D-4C46-856B-868DAB756727}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95AF1DCE-E2FD-49C6-BC88-3DEC7D9262A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/SpectroscopicMeasurementsMainUI.vi</Property>

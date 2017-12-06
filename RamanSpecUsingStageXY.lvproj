@@ -48,6 +48,9 @@
 			<Item Name="SpectrometerData.ctl" Type="VI" URL="../Spectrometer Utilities/SpectrometerData.ctl"/>
 		</Item>
 		<Item Name="Microscope" Type="Folder">
+			<Item Name="Finding Center of Objective" Type="Folder" URL="../Microscope/Finding Center of Objective">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="CameraOverlayImageGFV.vi" Type="VI" URL="../Microscope/CameraOverlayImageGFV.vi"/>
 			<Item Name="CameraImageOverlayEnum.ctl" Type="VI" URL="../Microscope/CameraImageOverlayEnum.ctl"/>
 			<Item Name="Microscope Controller GFV.vi" Type="VI" URL="../Microscope Controller GFV.vi"/>
@@ -325,6 +328,12 @@
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="NI_AAL_GlobalOptimization.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_AAL_GlobalOptimization.lvlib"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="Abort.vi" Type="VI" URL="../Motion/Abort.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>
@@ -443,8 +452,6 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Fetching - State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Fetching - State.ctl"/>
-			<Item Name="Get UDL File Path.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/database/database example subvis/Get UDL File Path.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AutomatedSpectrometerSoftware" Type="EXE">

@@ -55,6 +55,7 @@
 			<Item Name="MicroscopeControllerCluster.ctl" Type="VI" URL="../Microscope/MicroscopeControllerCluster.ctl"/>
 			<Item Name="MicroscopeControllerEnum.ctl" Type="VI" URL="../Microscope/MicroscopeControllerEnum.ctl"/>
 			<Item Name="MicroscopeActorCluster.ctl" Type="VI" URL="../Microscope/MicroscopeActorCluster.ctl"/>
+			<Item Name="DrawCrossHair.vi" Type="VI" URL="../Microscope/DrawCrossHair.vi"/>
 		</Item>
 		<Item Name="Stage" Type="Folder">
 			<Item Name="Utilities" Type="Folder">
@@ -93,7 +94,6 @@
 			<Item Name="SpectroMeasurementCtrlEnum.ctl" Type="VI" URL="../SpectroMeasurementCtrlEnum.ctl"/>
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
-		<Item Name="DrawCrossHair.vi" Type="VI" URL="../Microscope/DrawCrossHair.vi"/>
 		<Item Name="favicon.ico" Type="Document" URL="../favicon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -461,7 +461,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{74999ACD-1219-4BE6-AB13-F6EA3DFFFBDB}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutomatedSpectrometerSoftware.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/RAMAN.PC17521-12/Documents/ApplicationByLiorSegev/AutomatedSpectrometerSoftware/AutomatedSpectrometerSoftware.exe</Property>

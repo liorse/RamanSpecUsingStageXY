@@ -84,7 +84,9 @@
 			<Item Name="TestDatabaseControllerGFV.vi" Type="VI" URL="../Database/TestDatabaseControllerGFV.vi"/>
 			<Item Name="meas_conf_cluster.ctl" Type="VI" URL="../Database/meas_conf_cluster.ctl"/>
 			<Item Name="MoreTestDataGFV.vi" Type="VI" URL="../Database/MoreTestDataGFV.vi"/>
+			<Item Name="AddandUpdateUsers.vi" Type="VI" URL="../Database/AddandUpdateUsers.vi"/>
 			<Item Name="meas_data_cluster.ctl" Type="VI" URL="../Database/meas_data_cluster.ctl"/>
+			<Item Name="User_cluster.ctl" Type="VI" URL="../Database/User_cluster.ctl"/>
 		</Item>
 		<Item Name="Journal" Type="Folder">
 			<Item Name="IntrumentEnum.ctl" Type="VI" URL="../IntrumentEnum.ctl"/>
@@ -98,7 +100,6 @@
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
 		<Item Name="favicon.ico" Type="Document" URL="../favicon.ico"/>
-		<Item Name="AddandUpdateUsers.vi" Type="VI" URL="../Database/AddandUpdateUsers.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>

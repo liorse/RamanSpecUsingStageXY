@@ -101,6 +101,7 @@
 		</Item>
 		<Item Name="favicon.ico" Type="Document" URL="../favicon.ico"/>
 		<Item Name="AddNewUsersState.ctl" Type="VI" URL="../Database/AddNewUsersState.ctl"/>
+		<Item Name="GetUsersForListBox.vi" Type="VI" URL="../Database/GetUsersForListBox.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>

@@ -58,6 +58,7 @@
 			<Item Name="MicroscopeControllerCluster.ctl" Type="VI" URL="../Microscope/MicroscopeControllerCluster.ctl"/>
 			<Item Name="MicroscopeControllerEnum.ctl" Type="VI" URL="../Microscope/MicroscopeControllerEnum.ctl"/>
 			<Item Name="MicroscopeActorCluster.ctl" Type="VI" URL="../Microscope/MicroscopeActorCluster.ctl"/>
+			<Item Name="MicroscopeObjectiveConfigurationWindow.vi" Type="VI" URL="../Database/MicroscopeObjectiveConfigurationWindow.vi"/>
 			<Item Name="DrawCrossHair.vi" Type="VI" URL="../Microscope/DrawCrossHair.vi"/>
 		</Item>
 		<Item Name="Stage" Type="Folder">
@@ -87,6 +88,8 @@
 			<Item Name="AddandUpdateUsers.vi" Type="VI" URL="../Database/AddandUpdateUsers.vi"/>
 			<Item Name="meas_data_cluster.ctl" Type="VI" URL="../Database/meas_data_cluster.ctl"/>
 			<Item Name="User_cluster.ctl" Type="VI" URL="../Database/User_cluster.ctl"/>
+			<Item Name="AddNewUsersState.ctl" Type="VI" URL="../Database/AddNewUsersState.ctl"/>
+			<Item Name="GetUsersForListBox.vi" Type="VI" URL="../Database/GetUsersForListBox.vi"/>
 		</Item>
 		<Item Name="Journal" Type="Folder">
 			<Item Name="IntrumentEnum.ctl" Type="VI" URL="../IntrumentEnum.ctl"/>
@@ -100,8 +103,7 @@
 			<Item Name="SpectroMeasurementUIMainCluster.ctl" Type="VI" URL="../SpectroMeasurementUIMainCluster.ctl"/>
 		</Item>
 		<Item Name="favicon.ico" Type="Document" URL="../favicon.ico"/>
-		<Item Name="AddNewUsersState.ctl" Type="VI" URL="../Database/AddNewUsersState.ctl"/>
-		<Item Name="GetUsersForListBox.vi" Type="VI" URL="../Database/GetUsersForListBox.vi"/>
+		<Item Name="Objective_cluster.ctl" Type="VI" URL="../Database/Objective_cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
